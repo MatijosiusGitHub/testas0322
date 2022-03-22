@@ -9,29 +9,17 @@
     <script defer src="./script.js"></script>
   </head>
   <body>
-    <header>
-      <!-- Header code-->
-    </header>
-
-    <main>
+      <main>
       <div class="wrapper">
-        <h1 class="headline">Svorių keitiklis</h1>
-        <!-- Users input -->
-        <form>
-          <input type="number" name="skaicius" placeholder="Įveskite svorį kilogramais..." />
-          <input type="submit" id="submit-btn" value="Skaičiuok" />
+        <h1 class="headline">Jūsų bagažo svorio keitiklis</h1>
+        
+       <form>
+        <input type="number" name="skaicius" placeholder="Įvesk svorį kilogramais" />
+        <button id="kg">pakeisk uncijomis(oz)</button><button id="pound">pakeisk svarais(lb)</button>
+        <input  id="output">
           
-        </form>
-        <div id="SvorioIsvedimas"></div> 
-        <div id="output"></div>
-      </div>
+      
     </main>
-
-    <footer>
-      <!-- Footer code -->
-    </footer>
-  </body>
+ 
+ </body>
 </html>
-/*1. Svarus (lb) | Formulė: lb = kg * 2.2046
-2. Gramus (g) | Formulė: g = kg / 0.0010000
-3. Uncijos (oz) | Formulė: oz = kg * 35.274*/
