@@ -1,0 +1,95 @@
+additionals.txt
+ let submitBtn = document.getElementById('btn');
+    /*kai mygtuka Btn  paspaudziame pelyte, matome narsykleje rezultata keitimo,ty funkcija function*/
+button.addEventListener('click'), function(){
+    const kg = parseInt(document.getElementById)('kilograms').value;
+};
+    const type = document.getElementById('type').value;
+/* ciklas naudojamas patikrinti ar ne tuscias ivesties langelis*/
+    if (
+    )
+ /*<div class="footer">.footer-heading.footer-menu></div>
+    <h2>Apie koverterio kurima</h2>
+
+    <a href="#">Vartotojo domenu apsauga</a>
+    <a href="#">Facebookas</a>
+    <a href="#">Bendraukime el.pastu</a>
+
+    <input type="email" placeholder="Enter
+        jusu el paštas" id="footer-el paštas" ">
+        <input type="submit id " 
+        value="Irašykite " 
+        id="footer-el paštas-btn "*/
+/*
+            <input type="text" id="input" placeholder="Ivesk kilogramus" />
+    <button id="kg" >convert to oz</button>
+    <input type="text" id="output"/>
+    <input type="text" id="input" placeholder="Ivesk Pounds"/>
+    <button id="pound">convert to Kg</button>
+    <input type="text" id="output"/>
+    <input type="text" id="input" placeholder="Ivesk Pounds"/>
+    <button id="pound">convert to Oz</button>
+    <input type="text" id="output"/>
+    <input type="text" id="input" placeholder="Ivesk Oz"/>
+    <button id="oz">convert to kg</button>
+    <input type="text" id="output"/>
+
+    <input type="text" id="submitBtn" value="Calculate" />
+    </form>*/
+/*STYLE CSS/
+    wrapper {
+     max-width: 200vh;
+     min-width: calc(100vw - (100vw - 100%));
+     background-color: #fec631;
+ }
+
+ .headline {
+     padding-top: 100px;
+     font-size: 4.5em;
+     text-align: center;
+     color: #000;
+     text-transform: uppercase;
+ }
+
+ form {
+     max-width: 80%;
+     margin: 50px auto;
+     display: flex;
+     flex-wrap: wrap;
+ }
+
+ #search {
+     width: 65%;
+     margin: 0;
+     padding: 20px;
+     outline: 0;
+     border: 0;
+     font-size: 1.1em;
+ }
+
+ #submit-btn {
+     width: 35%;
+     background-color: #f7f7f7;
+     border: 0;
+     outline: 0;
+     font-size: 1.1em;
+ }
+
+ #submit-btn:hover {
+     cursor: pointer;
+     background-color: #000;
+     color: #fff;
+ }
+
+ /* Tablet */
+
+ @media screen and (min-width: 768px) {
+     .headline {
+         font-size: 3.5em;
+     }
+
+     #search,
+     #submit-btn {
+         font-size: 2em;
+     }
+ }
